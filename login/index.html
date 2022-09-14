@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="./libs/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+</head>
+
+<body>
+    <!-- Content -->
+    <div class="container login_container">
+        <div class="row login__row">
+            <div class="col-6 login__left">
+                <div class="row left__content">
+                    <div class="col-12">
+                        <div class="row login__header">
+                            <div class="col-6 header__title">
+                                <h5>Sign In</h5>
+                            </div>
+
+                            <div class="col-6 header__SocialNetwork">
+                                <a href="#" class="SocialNetwork__link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a href="#" class="SocialNetwork__link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <form class="formLogin">
+                                    <div class="form-group">
+                                        <label for="username">Username</label>
+                                        <input type="text" class="form-control" id="username">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" class="form-control" id="password">
+                                    </div>
+                                    <button type="button" class="btn btn-primary active btn-block login__btn">Sign In</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="row login__footer">
+                            <div class="col-6 login__footer-checkbox">
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                </div>
+                            </div>
+                            <div class="col-6 login__footer-forgot">
+                                <a href="#">Forgot Password</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 login__right">
+                <div class="row right__content">
+                    <div class="col-12">
+                        <div class="row right__content-title">
+                            <div class="col-12">
+                                <h3>Welcome to login</h3>
+                            </div>
+                        </div>
+                        <div class="row right__desc">
+                            <div class="col-12">
+                                <span>Don't have an account?</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <button class="btn btn-outline-primary right__btn">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
